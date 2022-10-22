@@ -1,0 +1,12 @@
+* {
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+p {
+    font-weight: bolder;
+}
