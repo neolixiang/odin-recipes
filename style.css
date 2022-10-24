@@ -1,12 +1,36 @@
 * {
     background-color: beige;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 h1 {
-    font-weight: 1000;
+    font-weight: bolder;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #43a047, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
 }
 
-p {
-    font-weight: bolder;
+.container {
+    display: flex;
+    border: 6px solid gray;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 1em;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+
+a { 
+    font-weight: bold;
+    color: grey;
+    margin: 5px;    
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 5px;
+    background-color:honeydew;
+    width:fit-content;
+    ;
 }
