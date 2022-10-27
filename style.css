@@ -34,3 +34,7 @@ a {
     width:fit-content;
     ;
 }
+
+.wrapper input {
+    background-color: lightseagreen;
+}
